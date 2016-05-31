@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<title>DSN 2017</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/main.css">
+	<style>
+	.mySlides {display:none;}
+	</style>
+	<body>
+	
+	<ul id="navmenu">
+		<li><a href="#">Home</a></li>
+		<li><a href="./registration/index.html">Registration</a></li>
+		<li><a href="about">Awards</a><span class="darrow">&#9660;</span>
+			<ul class="sub1">
+				<li><a href="/about">Best Paper Award</a></li>
+				<li><a href="about">Carter Award</a></li>
+				<li><a href="about">Jean Claude Laprie Award</a></li>
+				<li><a href="about">IEEE  ISI Award</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="about">Others</a><span class="darrow">&#9660;</span>
+			<ul class="sub1">
+				<li><a href="/about">Previous DSNs</a></li>
+				<li><a href="about">News</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="about">Call For Papers</a><span class="darrow">&#9660;</span>
+			<ul class="sub1">
+				<li><a href="/about">Main Track</a></li>
+				<li><a href="about">Industry Track</a></li>
+				<li><a href="about">Workshops</a></li>
+				<li><a href="about">Tutorials</a></li>
+				<li><a href="about">Student Forum</a></li>
+				<li><a href="about">Fast Abstract</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="#">Important Dates</a></li>
+		
+		<li><a href="about">Committee</a><span class="darrow">&#9660;</span>
+			<ul class="sub1">
+				<li><a href="/about">Organizing</a></li>
+				<li><a href="about">Program</a></li>
+				<li><a href="about">Steering</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="about">Accepted Lists</a><span class="darrow">&#9660;</span>
+			<ul class="sub1">
+				<li><a href="/about">Main Track</a></li>
+				<li><a href="about">Industry Track</a></li>
+				<li><a href="about">Workshops</a></li>
+				<li><a href="about">Tutorials</a></li>
+				<li><a href="about">Student Forum</a></li>
+				<li><a href="about">Fast Abstract</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Sponsors</a></li>
+		
+		
+	</ul>
+	
+	
+	
+	<h1> <img src="./figures/DSN_2017.jpg" style="width:10%">DSN 2017</h1>
+	<h2>The 47th IEEE/IFIP International Conference on Dependable Systems and Networks</h2>
+	<h3>Denver,Colorado,USA</h3>
+	
+
+	<div class="img" align="center">
+	  <img class="mySlides" src="./figures/Picture2.jpg" style="width:30%">
+	  <img class="mySlides" src="./figures/Picture3.jpg" style="width:30%">
+	  <img class="mySlides" src="./figures/Picture4.jpg" style="width:30%">
+	
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			   x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+	</div>	
+	<div class="text" align="left"">
+		<p class="text">The IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) is the most prestigious international forum for presenting advanced and innovative  research results, problem solutions, practices, insights on new challenges in the field of dependable computing and security. The whole spectrum of IT systems and application areas with stringent relevant dependability and security concerns are of interest to DSN.</p>
+		<p class="text">The IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) is the most prestigious international forum for presenting advanced and innovative  research results, problem solutions, practices, insights on new challenges in the field of dependable computing and security. The whole spectrum of IT systems and application areas with stringent relevant dependability and security concerns are of interest to DSN.</p>
+		<p class="text">The IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) is the most prestigious international forum for presenting advanced and innovative  research results, problem solutions, practices, insights on new challenges in the field of dependable computing and security. The whole spectrum of IT systems and application areas with stringent relevant dependability and security concerns are of interest to DSN.</p>
+		
+	</div>
+	</body>
+	
+</html> 
