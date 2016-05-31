@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+		
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+		
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length} ;
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+	</script>
+	
 	<head>
 		<title>DSN 2017</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		
+		
+	</head>
+	
+	
+	<body>
 		<h1>The 47th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) </h1>
 		
 		
@@ -33,14 +58,15 @@
 			</li>
 			<li><a href="#">hyperlink 5</a></li>
 		</ul>
-	</head>
-	
-	
-	<body>
-		hello world
 
+		hello!!!!
+		<div style="max-width:800px;position:relative">
+
+		<imgsrc="denver_day.jpg" style="width:100%">
+		<img src="denver_night.jpg" style="width:100%">
 		
-		
+		<a style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+		<a style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
 		
 	</body>
 	
