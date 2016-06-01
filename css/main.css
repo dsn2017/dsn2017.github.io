@@ -62,8 +62,8 @@ table,th,td{border:none}
 .w3-ripple:active:after{padding:0;opacity:1;transition:0s}
 .w3-badge,.w3-tag,.w3-sign{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
 .w3-badge{border-radius:50%}
-ul.w3-ul{list-style-type:none;padding:0;margin:0}
-ul.w3-ul li{padding:6px 2px 6px 16px;border-bottom:1px solid #ddd}
+ul.w3-ul{list-style-type:none;padding:0;margin:0;font-size: 25px}
+ul.w3-ul li{padding:6px 2px 6px 16px;font-size: 15px}}
 ul.w3-ul li:last-child{border-bottom:none}
 .w3-tooltip,.w3-display-container{position:relative}
 .w3-fluid{max-width:100%;height:auto}
@@ -522,4 +522,23 @@ h3{
     font-size: 1.5em;
     font-weight: bold;
 	color:red;
+}
+
+h4{ 
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+	color:black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+ul.mylist > li {
+    margin-left: 10px;
 }
