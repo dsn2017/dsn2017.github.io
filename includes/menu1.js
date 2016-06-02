@@ -40,7 +40,7 @@ document.write("<li><a href=\"#\">Fast Abstract</a></li>");
 document.write("</ul>");
 document.write("</li>");
 document.write("<li><a href=\"sponsors\">Sponsors</a></li>");
-document.write("<li><a href=\"impostant_dates\">Important Dates</a></li>");
+document.write("<li><a href=\"important_dates\">Important Dates</a></li>");
 document.write("<li><a href=\"registration\">Registration</a></li>");
 document.write("<li><a href=\"previous_conferences\">Previous Conferences</a></li>");
 document.write("<li><a href=\"news\">News</a></li>");
