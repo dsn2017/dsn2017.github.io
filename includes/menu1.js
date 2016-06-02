@@ -45,7 +45,7 @@ document.write("<li><a href=\"#\">Registration</a></li>");
 document.write("<li><a href=\"#\">Previous Conferences</a></li>");
 document.write("<li><a href=\"#\">News</a></li>");
 document.write("<li><a href=\"#\">Travel</a></li>");
-document.write("<li><a href=\"#\">Twitter</a></li>");
+document.write("<li><a href=\"twitter\">Twitter</a></li>");
 document.write("</ul>");
 document.write("</nav>");
 	
