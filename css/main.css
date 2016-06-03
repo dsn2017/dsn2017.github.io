@@ -33,6 +33,7 @@ a:hover {
 
 .main-nav-ul li.tap ul{
 	display: block;
+	padding-left:40px;
 }
 
 .main-nav .sub-arrow:after {
