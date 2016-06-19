@@ -24,6 +24,15 @@
 			
 		<script type="text/javascript" src="../../includes/title3.js"> </script>
 		<script type="text/javascript" src="../../includes/menu3.js"> </script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			var query = decodeURIComponent(window.location.search);
+			if(query.indexOf("call_for_contributions") > -1)
+			{
+				$('#' + "call_for_contributions" + ' ul').slideDown();
+			}
+			});
+		</script>
 			
 			<table class="others">
 				<tr>
