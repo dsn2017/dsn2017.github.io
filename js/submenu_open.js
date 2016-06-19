@@ -6,4 +6,24 @@ $(document).ready(function() {
 				$($element).toggleClass('tap');
 				setTimeout(function(){$($element).focus();},10);
 			}
+			
+			if (query.indexOf("committees") > -1)
+			{
+				$element = document.getElementById("committees");
+				$($element).toggleClass('tap');
+				setTimeout(function(){$($element).focus();},10);
+			}
+			if (query.indexOf("awards") > -1)
+			{
+				$element = document.getElementById("awards");
+				$($element).toggleClass('tap');
+				setTimeout(function(){$($element).focus();},10);
+			}
+			
+			if (query.indexOf("accepted_contributions") > -1)
+			{
+				$element = document.getElementById("awards");
+				$($element).toggleClass('tap');
+				setTimeout(function(){$($element).focus();},10);
+			}
 			});
