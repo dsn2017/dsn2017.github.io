@@ -22,7 +22,7 @@ $(document).ready(function() {
 			
 			if (query.indexOf("accepted_contributions") > -1)
 			{
-				$element = document.getElementById("awards");
+				$element = document.getElementById("accepted_contributions");
 				$($element).toggleClass('tap');
 				setTimeout(function(){$($element).focus();},10);
 			}
