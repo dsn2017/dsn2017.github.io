@@ -4,7 +4,7 @@ a {text-decoration: none;}
 
 .main-nav {
 	width: 250px; 
-	background: rgba(180,205,203,1.00);
+	background-color: 	#F4FCFC;
 	}
 
 .main-nav a{
@@ -73,7 +73,7 @@ table.others{
 
 
 html{
-	background-color: 	#ABEBC6;
+	background-color: 	#FFFFFF;
 }
 
 p {
