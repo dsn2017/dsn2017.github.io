@@ -18,6 +18,9 @@ a {text-decoration: none;}
 	color: black;
 	letter-spacing: .1em;
 }
+a.img:hover {
+	background-color: white;
+}
 
 a:hover { 
     background-color: blue;
