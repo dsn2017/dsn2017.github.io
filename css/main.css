@@ -22,8 +22,14 @@ a.img:hover {
 	background-color: white;
 }
 
-a:hover { 
-    background-color: blue;
+a:hover {
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    background-color: #153F93;
+    color: white;
+    text-decoration: none;
 }
 
 .main-nav li{

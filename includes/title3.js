@@ -1,7 +1,7 @@
 document.write("<table style=\"width:100%\">");
 document.write("<tr>");
 document.write("<td >	");
-document.write("<a class = \"img\" href=\"http://dsn2017.github.io/\"><img src=\"../../figures/DSN_2017.jpg\" width=\"100%\"/></a>");
+document.write("<a href=\"http://dsn2017.github.io/\"><img src=\"../../figures/DSN_2017.jpg\" width=\"100%\"/></a>");
 document.write("</td>");
 
 
