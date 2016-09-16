@@ -79,6 +79,11 @@ table.others{
     float:right;
 }
 
+table.dates{
+    width:26%;
+    float:left;
+}
+
 
 
 html{
