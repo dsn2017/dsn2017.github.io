@@ -87,6 +87,7 @@ table.dates{
 
 
 html{
+	font-family: Sans-Serif;
 	background-color: 	#FFFFFF;
 }
 
@@ -96,21 +97,21 @@ p {
 }
 
 h1  {
-	font-family: Verdana;
+	font-family: Sans-Serif;
 	font-size: 900;
 	margin-bottom: 10px;
 	color=#16A085;
 }
 
 h2  {
-	font-family: Arial;
+	font-family: Sans-Serif;
 	font-size: 400;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
 
 h3  {
-	font-family: Verdana;
+	font-family: Sans-Serif;
 	font-size: 400;
 	font-weight: bold;
 	margin-bottom: 10px;
@@ -119,6 +120,11 @@ h3  {
 
 ul.normal{
 	padding-left:40px;
+}
+
+body
+{
+font-family: Sans-Serif;
 }
 
 
