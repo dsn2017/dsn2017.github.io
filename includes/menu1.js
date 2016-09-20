@@ -44,7 +44,7 @@ document.write("<li><a href=\"important_dates\">Important Dates</a></li>");
 document.write("<li><a href=\"registration\">Registration</a></li>");
 document.write("<li><a href=\"previous_conferences\">Previous Conferences</a></li>");
 document.write("<li><a href=\"news\">News</a></li>");
-document.write("<li class=\"has-sub\" id=\"conference_venue\"><a>Conference_venue<span class=\"sub-arrow\"></span></a>");
+document.write("<li class=\"has-sub\" id=\"conference_venue\"><a>Conference Venue<span class=\"sub-arrow\"></span></a>");
 document.write("<ul>");
 document.write("<li><a href=\"conference_venue/host_city\">Host City</a></li>");
 document.write("<li><a href=\"conference_venue/hotel\">Hotel</a></li>");
