@@ -13,9 +13,9 @@ $(document).ready(function() {
 				$($element).toggleClass('tap');
 				setTimeout(function(){$($element).focus();},10);
 			}
-			if (query.indexOf("awards") > -1)
+			if (query.indexOf("conference_venue") > -1)
 			{
-				$element = document.getElementById("awards");
+				$element = document.getElementById("conference_venue");
 				$($element).toggleClass('tap');
 				setTimeout(function(){$($element).focus();},10);
 			}
