@@ -12,6 +12,7 @@ document.write("<li><a href=\"call_for_contributions/workshops\">Workshops</a></
 document.write("<li><a href=\"call_for_contributions/tutorials\">Tutorials</a></li>");
 document.write("<li><a href=\"call_for_contributions/student_forum\">Student Forum</a></li>");
 document.write("<li><a href=\"call_for_contributions/industry_track\">Fast Abstract</a></li>");
+document.write("<li><a href=\"call_for_contributions/submission\">Submission</a></li>");
 document.write("</ul>");
 document.write("</li>");
 document.write("<li class=\"has-sub\"  id=\"committees\"><a>Committees<span class=\"sub-arrow\"></span></a>");
