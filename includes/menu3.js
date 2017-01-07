@@ -41,6 +41,7 @@ document.write("<li><a href=\"../../accepted_contributions/fast_abstract\">Fast 
 document.write("</ul>");
 document.write("</li>");
 document.write("<li><a href=\"../../sponsors\">Sponsors</a></li>");
+document.write("<li><a href=\"../../workshops\">Workshops</a></li>");
 document.write("<li><a href=\"../../important_dates\">Important Dates</a></li>");
 document.write("<li><a href=\"../../registration\">Registration</a></li>");
 document.write("<li><a href=\"../../previous_conferences\">Previous Conferences</a></li>");
