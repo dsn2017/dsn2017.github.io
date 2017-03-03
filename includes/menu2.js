@@ -49,8 +49,7 @@ document.write("<li><a href=\"../previous_conferences\">Previous Conferences</a>
 document.write("<li><a href=\"../news\">News</a></li>");
 document.write("<li class=\"has-sub\" id=\"conference_venue\"><a>Conference Venue<span class=\"sub-arrow\"></span></a>");
 document.write("<ul>");
-document.write("<li><a href=\"../conference_venue/host_city\">Host City</a></li>");
-document.write("<li><a href=\"../conference_venue/hotel\">Hotel</a></li>");
+document.write("<li><a href=\"../hotel_and_travel_info\">Hotel and Travel Info</a></li>");
 document.write("</ul>");
 document.write("</li>");
 document.write("<li><a href=\"../twitter\">Twitter</a></li>");
