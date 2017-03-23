@@ -27,7 +27,6 @@ document.write("<ul>");
 document.write("<li><a href=\"awards/best_paper_award\">Best Paper Award</a></li>");
 document.write("<li><a href=\"awards/carter_award\">Carter Award</a></li>");
 document.write("<li><a href=\"awards/jean_claude_laprie_award\">Jean Claude Laprie Award</a></li>");
-document.write("<li><a href=\"awards/ieee_isi_award\">IEEE ISI Award</a></li>");
 document.write("</ul>");
 document.write("</li>");
 document.write("<li class=\"has-sub\" id=\"accepted_contributions\"><a>Accepted Contributions<span class=\"sub-arrow\"></span></a>");
