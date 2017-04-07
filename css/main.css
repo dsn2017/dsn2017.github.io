@@ -86,6 +86,27 @@ table.dates{
 
 
 
+table.registration {
+	width:105%;
+    float:left;
+	border: 1px solid black;
+	
+}
+
+tr.registration {
+    border: 1px solid black;
+}
+
+td.registration {
+    padding: 2px;
+    border:1px solid black;
+	border-collapse:separate;
+	font-family: Arial; 
+	font-size: 10pt;
+}
+
+
+
 html{
 	font-family: Sans-Serif;
 	background-color: 	#FFFFFF;
