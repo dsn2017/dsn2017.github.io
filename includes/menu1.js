@@ -37,16 +37,7 @@ document.write("<li><a href=\"preliminary_program/program_at_a_glance\">Program 
 document.write("</ul>");
 document.write("</li>");
 
-document.write("<li class=\"has-sub\" id=\"accepted_contributions\"><a>Accepted Contributions<span class=\"sub-arrow\"></span></a>");
-document.write("<ul>");
-document.write("<li><a href=\"accepted_contributions/main_track\">Main Track</a></li>");
-document.write("<li><a href=\"accepted_contributions/industry_track\">Industry Track</a></li>");
-document.write("<li><a href=\"accepted_contributions/workshops\">Workshops</a></li>");
-document.write("<li><a href=\"accepted_contributions/tutorials\">Tutorials</a></li>");
-document.write("<li><a href=\"accepted_contributions/student_forum\">Student Forum</a></li>");
-document.write("<li><a href=\"accepted_contributions/fast_abstract\">Fast Abstract</a></li>");
-document.write("</ul>");
-document.write("</li>");
+
 document.write("<li><a href=\"sponsors\">Sponsors</a></li>");
 document.write("<li><a href=\"important_dates\">Important Dates</a></li>");
 document.write("<li><a href=\"workshops\">Workshops</a></li>");
