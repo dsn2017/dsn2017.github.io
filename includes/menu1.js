@@ -29,6 +29,14 @@ document.write("<li><a href=\"awards/carter_award\">Carter Award</a></li>");
 document.write("<li><a href=\"awards/jean_claude_laprie_award\">Jean Claude Laprie Award</a></li>");
 document.write("</ul>");
 document.write("</li>");
+
+document.write("<li class=\"has-sub\" id=\"preliminary_program\"><a>Preliminary Program<span class=\"sub-arrow\"></span></a>");
+document.write("<ul>");
+document.write("<li><a href=\"preliminary_program/full_program\">Full Program</a></li>");
+document.write("<li><a href=\"preliminary_program/program_at_a_glance\">Program at a Glance</a></li>");
+document.write("</ul>");
+document.write("</li>");
+
 document.write("<li class=\"has-sub\" id=\"accepted_contributions\"><a>Accepted Contributions<span class=\"sub-arrow\"></span></a>");
 document.write("<ul>");
 document.write("<li><a href=\"accepted_contributions/main_track\">Main Track</a></li>");
