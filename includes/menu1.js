@@ -32,8 +32,8 @@ document.write("</li>");
 
 document.write("<li class=\"has-sub\" id=\"preliminary_program\"><a>Preliminary Program<span class=\"sub-arrow\"></span></a>");
 document.write("<ul>");
-document.write("<li><a href=\"preliminary_program/full_program\">Full Program</a></li>");
-document.write("<li><a href=\"preliminary_program/program_at_a_glance\">Program at a Glance</a></li>");
+document.write("<li><a href=\"preliminary_program/full_program/full_program.pdf\">Full Program</a></li>");
+document.write("<li><a href=\"preliminary_program/program_at_a_glance/program_at_a_glance.pdf\">Program at a Glance</a></li>");
 document.write("</ul>");
 document.write("</li>");
 
