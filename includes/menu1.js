@@ -37,7 +37,7 @@ document.write("<li><a href=\"preliminary_program/program_at_a_glance/program_at
 document.write("</ul>");
 document.write("</li>");
 
-
+document.write("<li><a href=\"keynote_speakers\">Keynotes</a></li>");
 document.write("<li><a href=\"sponsors\">Sponsors</a></li>");
 document.write("<li><a href=\"important_dates\">Important Dates</a></li>");
 document.write("<li><a href=\"workshops\">Workshops</a></li>");
