@@ -30,13 +30,8 @@ document.write("<li><a href=\"awards/jean_claude_laprie_award\">Jean Claude Lapr
 document.write("</ul>");
 document.write("</li>");
 
-document.write("<li class=\"has-sub\" id=\"preliminary_program\"><a>Preliminary Program<span class=\"sub-arrow\"></span></a>");
-document.write("<ul>");
-document.write("<li><a href=\"preliminary_program/full_program/full_program.pdf\">Full Program</a></li>");
-document.write("<li><a href=\"preliminary_program/program_at_a_glance/program_at_a_glance.pdf\">Program at a Glance</a></li>");
-document.write("</ul>");
-document.write("</li>");
 
+document.write("<li><a href=\"conference_program/conference_program.pdf\">Conference Program</a></li>");
 document.write("<li><a href=\"student_travel_grants\">Student Travel Grants</a></li>");
 document.write("<li><a href=\"keynote_speakers\">Keynotes</a></li>");
 document.write("<li><a href=\"sponsors\">Sponsors</a></li>");
