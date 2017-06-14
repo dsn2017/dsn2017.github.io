@@ -40,7 +40,6 @@ document.write("<li><a href=\"workshops\">Workshops</a></li>");
 document.write("<li><a href=\"tutorials\">Tutorials</a></li>");
 document.write("<li><a href=\"registration\">Registration</a></li>");
 document.write("<li><a href=\"previous_conferences\">Previous Conferences</a></li>");
-document.write("<li><a href=\"news\">News</a></li>");
 document.write("<li><a href=\"hotel_and_travel_info\">Hotel and Travel Info</a></li>");
 document.write("<li><a href=\"visa_info\">Visa Information</a></li>");
 document.write("<li><a href=\"twitter\">Twitter</a></li>");
